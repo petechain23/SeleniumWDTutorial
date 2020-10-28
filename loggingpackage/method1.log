@@ -1,0 +1,5 @@
+10/06/2020 12:09:57 AM - method1 - DEBUG - debug message
+10/06/2020 12:09:57 AM - method1 - INFO - info message
+10/06/2020 12:09:57 AM - method1 - WARNING - warning message
+10/06/2020 12:09:57 AM - method1 - ERROR - error message
+10/06/2020 12:09:57 AM - method1 - CRITICAL - critical message

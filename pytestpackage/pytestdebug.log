@@ -1,0 +1,375 @@
+versions pytest-6.1.1, py-1.9.0, python-3.7.7.final.0
+cwd=/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage
+args=('-v', '-s', 'test_case_demo2.py', 'test_case_demo3.py', '--debug', 'log_file_date_format')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x10fc15250>
+    pytest_plugin_registered [hook]
+        plugin: <Session pytestpackage exitstatus=None testsfailed=0 testscollected=0>
+        manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x10fc15250>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x110128b50>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x10fbc1610>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_configure [hook]
+          config: <_pytest.config.Config object at 0x10fc15250>
+      finish pytest_configure --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x10fbc1590>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.stepwise.StepwisePlugin object at 0x110112fd0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x10fc15250>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='no' _global_capturing=<MultiCapture out=None err=None in_=None _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session pytestpackage exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x110128b50>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x10fbc1610>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x10fbc1590>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.stepwise.StepwisePlugin object at 0x110112fd0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x1100d9c50>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x11015add0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session pytestpackage exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x10fc15250>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage/.venv/lib/python3.7/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='no' _global_capturing=<MultiCapture out=None err=None in_=None _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session pytestpackage exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x110128b50>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x10fbc1610>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x10fbc1590>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.stepwise.StepwisePlugin object at 0x110112fd0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x1100d9c50>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x11015add0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x1101287d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10f3dd410>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x10fc15250>
+          startdir: /Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage
+      finish pytest_report_header --> [['rootdir: /Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage'], 'cachedir: .pytest_cache', ['using: pytest-6.1.1 pylib-1.9.0']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session pytestpackage exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session pytestpackage exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['test_case_demo2.py', 'test_case_demo3.py', 'log_file_date_format'] [collection]
+        pytest_collection_finish [hook]
+            session: <Session pytestpackage exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          pytest_report_collectionfinish [hook]
+              config: <_pytest.config.Config object at 0x10fc15250>
+              startdir: /Users/dattran/Documents/Virtualenv/PyCharm/workspace_python/SeleniumWDTutorial/pytestpackage
+              items: []
+          finish pytest_report_collectionfinish --> [] [hook]
+        finish pytest_collection_finish --> [] [hook]
+      pytest_sessionfinish [hook]
+          session: <Session pytestpackage exitstatus=<ExitCode.USAGE_ERROR: 4> testsfailed=0 testscollected=0>
+          exitstatus: ExitCode.USAGE_ERROR
+        pytest_terminal_summary [hook]
+            terminalreporter: <_pytest.terminal.TerminalReporter object at 0x1100d9c50>
+            exitstatus: ExitCode.USAGE_ERROR
+            config: <_pytest.config.Config object at 0x10fc15250>
+        finish pytest_terminal_summary --> [] [hook]
+      finish pytest_sessionfinish --> [] [hook]
+      pytest_unconfigure [hook]
+          config: <_pytest.config.Config object at 0x10fc15250>
+      finish pytest_unconfigure --> [] [hook]

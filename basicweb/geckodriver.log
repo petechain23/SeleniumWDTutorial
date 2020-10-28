@@ -1,0 +1,46 @@
+1599147648277	geckodriver	INFO	Listening on 127.0.0.1:50627
+1599147649303	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fg/311wcjnn2nqd9nv4s7zzt5d40000gn/T/rust_mozprofileJzTeZr"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599147653625	Marionette	INFO	Listening on port 50639
+1599147653724	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599147718178	Marionette	INFO	Stopped listening on port 50639
+1599147726068	geckodriver	INFO	Listening on 127.0.0.1:50744
+1599147727088	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fg/311wcjnn2nqd9nv4s7zzt5d40000gn/T/rust_mozprofilelKGZV7"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599147730162	Marionette	INFO	Listening on port 50755
+1599147730208	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599147768505	Marionette	INFO	Stopped listening on port 50755
+1599147837836	geckodriver	INFO	Listening on 127.0.0.1:50846
+1599147838854	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fg/311wcjnn2nqd9nv4s7zzt5d40000gn/T/rust_mozprofileepKWC7"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599147841799	Marionette	INFO	Listening on port 50857
+1599147841928	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599147848457	Marionette	INFO	Stopped listening on port 50857
+1599147860621	geckodriver	INFO	Listening on 127.0.0.1:50930
+1599147860636	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fg/311wcjnn2nqd9nv4s7zzt5d40000gn/T/rust_mozprofileI5hQ0H"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599147863383	Marionette	INFO	Listening on port 50939
+1599147863469	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599147872638	Marionette	INFO	Stopped listening on port 50939
+1599150374531	geckodriver	INFO	Listening on 127.0.0.1:51725
+1599150375568	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fg/311wcjnn2nqd9nv4s7zzt5d40000gn/T/rust_mozprofilerXjFes"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599150382308	Marionette	INFO	Listening on port 51739
+1599150382398	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599150390224	Marionette	INFO	Stopped listening on port 51739
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /var/folders/fg/311wcjnn2nqd9nv4s7zzt5d40000gn/T/rust_mozprofilerXjFes/protections.sqlite
+1599150621525	geckodriver	INFO	Listening on 127.0.0.1:51918
+1599150622540	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fg/311wcjnn2nqd9nv4s7zzt5d40000gn/T/rust_mozprofileosFiSK"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599150627993	Marionette	INFO	Listening on port 51929
+1599150628077	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599150635432	Marionette	INFO	Stopped listening on port 51929
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 568: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /var/folders/fg/311wcjnn2nqd9nv4s7zzt5d40000gn/T/rust_mozprofileosFiSK/protections.sqlite
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 568: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1599150745569	geckodriver	INFO	Listening on 127.0.0.1:52146
+1599150746583	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fg/311wcjnn2nqd9nv4s7zzt5d40000gn/T/rust_mozprofileY9De8N"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599150750758	Marionette	INFO	Listening on port 52157
+1599150750786	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599150770163	Marionette	INFO	Stopped listening on port 52157
